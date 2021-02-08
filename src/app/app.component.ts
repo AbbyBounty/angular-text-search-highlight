@@ -56,4 +56,8 @@ export class AppComponent {
     'Zatanna',
     'Zatara',
   ]
+
+  my(){
+    console.log("hello")
+  }
 }
