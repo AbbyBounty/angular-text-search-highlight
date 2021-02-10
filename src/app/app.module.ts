@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { HighlightDirective } from './directives/highlight.directive';
 import { FilterPipe } from './pipes/filter.pipe';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
-    FilterPipe
+    FilterPipe,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
